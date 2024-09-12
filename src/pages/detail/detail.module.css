@@ -1,0 +1,46 @@
+.container {
+    padding: 0 14px;
+    color:#FFF;
+    font-size: 18px;
+}
+.center{
+    text-align: center;
+    margin-bottom: 14px;
+}
+.content{
+    background-color: #0f0f0f;
+    margin: 24px auto;
+    padding:24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    border-radius: 14px;
+    gap: 14px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    transition: all 1s;
+}
+.logo:hover{
+    transform: rotate(360deg);
+}
+
+.profit {
+    color: #12f98a;
+    font-weight: bold;
+}
+.loss{
+    color: red;
+    font-weight: bold;
+}
+.button {
+    display: flex;
+    padding: 8px 24px;
+    background-color:red;
+    color: #FFF;
+    margin: 8 0;
+    border-radius: 8px;
+}
